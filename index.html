@@ -1,14 +1,637 @@
-    <!DOCTYPE html>
-    <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
     <head>
-      <meta charset="utf-8">
-      <meta name="viewport"
-         content="width=device-width, initial-scale=1, user-scalable=yes">
-     
-      <title>Hello World!</title>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>InductiveHealth Informatics</title>
+        <!-- All Stylesheets -->
+        <link href="css/All-stylesheets.css" rel="stylesheet">
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <!-- Fav and touch icons -->		
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/icons/favicon/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/icons/favicon/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon-precomposed" href="images/icons/favicon/apple-touch-icon.png">
+        <link rel="shortcut icon" href="images/icons/favicon/favicon.png">
     </head>
     <body>
-    Hello World!
-     
+        <!-- PRELOADER STARTS
+            ========================================================================= --> 
+        <div id="preloader">
+            <div class="preloader">
+                <div class="cube1"></div>
+                <div class="cube2"></div>
+            </div>
+        </div>
+        <!-- PRELOADER Ends
+            ========================================================================= -->
+        <!-- SLIDER STARTS
+            ========================================================================= --> 
+        <section id="slider">
+            <div class="tp-banner-container hello">
+                <div class="tp-banner" >
+                    <ul>
+                        <!-- SLIDE NR. 1 -->
+                        <li data-transition="fade" data-slotamount="5" data-masterspeed="700">
+                            <!-- MAIN IMAGE --> 
+                            <img src="video/poster.jpg"  alt="video_forest"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">                             
+                            <!-- LAYER NR. 1 -->
+                            <div class="tp-caption tp-fade fadeout fullscreenvideo"
+                                data-x="0"
+                                data-y="0"
+                                data-speed="1000"
+                                data-start="0"
+                                data-easing="Power4.easeOut"
+                                data-endspeed="1500"
+                                data-endeasing="Power4.easeIn"
+                                data-autoplay="true"                            
+                                data-autoplayonlyfirsttime="false"
+                                data-nextslideatend="true"
+                                data-forceCover="1"
+                                data-dottedoverlay="twoxtwo"
+                                data-aspectratio="16:9"
+                                data-forcerewind="on"
+                                style="z-index: 2">
+                                <video class="video-js vjs-default-skin" loop preload="none" width="100%" height="100%"
+                                    poster='video/poster.jpg' data-setup="{}">
+                                    <source src='video/bg.mp4' type='video/mp4' />
+                                </video>
+                            </div>
+                            <!-- LAYER NR. 1 -->
+							<div class="tp-caption very_large_text customin"
+                                data-x="center"
+                                data-y="0"
+                                data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                data-speed="800"
+                                data-start="500"
+                                data-easing="Power4.easeOut"
+                                data-endspeed="300"
+                                data-endeasing="Power1.easeIn"
+                                data-captionhidden="off"
+                                style="z-index: 6"><img src="images/logo/logo_657px_dark_shadow.png" alt=""/>
+                            </div>
+                            <div class="tp-caption very_large_text customin"
+                                data-x="center"
+                                data-y="225"
+                                data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                data-speed="800"
+                                data-start="2000"
+                                data-easing="Power4.easeOut"
+                                data-endspeed="300"
+                                data-endeasing="Power1.easeIn"
+                                data-captionhidden="off"
+                                style="z-index: 6">MODERN TECHNOLOGY
+                            </div>
+							<!-- LAYER NR. 3 -->
+                            <div class="tp-caption medium_text customin"
+                                data-x="center"
+                                data-y="315"
+                                data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                data-speed="800"
+                                data-start="2750"
+                                data-easing="Power4.easeOut"
+                                data-endspeed="300"
+                                data-endeasing="Power1.easeIn"
+                                data-captionhidden="on"
+                                style="z-index: 6">TO SUPPORT
+                            </div>
+                            <!-- LAYER NR. 2 -->
+                            <div class="tp-caption large_text customin"
+                                data-x="center"
+                                data-y="365"
+                                data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                data-speed="800"
+                                data-start="3500"
+                                data-easing="Power4.easeOut"
+                                data-endspeed="300"
+                                data-endeasing="Power1.easeIn"
+                                data-captionhidden="off"
+                                style="z-index: 6">PUBLIC HEALTH ACTION
+                            </div>
+                            <!-- LAYER NR. 4 -->
+                            <div class="tp-caption medium_text customin"
+                                data-x="center"
+                                data-y="465"
+                                data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                data-speed="800"
+                                data-start="4500"
+                                data-easing="Power4.easeOut"
+                                data-endspeed="300"
+                                data-endeasing="Power1.easeIn"
+                                data-captionhidden="off"
+                                style="z-index: 6"><a href="#about-us" class="slider-btn">Learn More</a>
+                            </div>
+                            
+                        </li>
+                    </ul>
+                    <div class="tp-bannertimer"></div>
+                </div>
+            </div>
+        </section>
+        <!-- /. SLIDER END
+            ========================================================================= --> 
+        <!-- NAVIGATION STARTS
+            ========================================================================= -->
+        <section id="navigation">
+            <div class="navbar navbar-inverse" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                        <a class="navbar-brand" href="#slider"><img src="images/logo/logo.png" width="241" height="55" alt=""/></a> 
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav pull-right">
+                            <li><a href="#about-us" data-toggle="collapse" data-target=".navbar-collapse">ABOUT</a></li>
+                            <li><a href="#services" data-toggle="collapse" data-target=".navbar-collapse">SERVICES</a></li>
+							<li><a href="#testimonials" data-toggle="collapse" data-target=".navbar-collapse">TESTIMONIALS</a></li>
+							<li><a href="#portfolio" data-toggle="collapse" data-target=".navbar-collapse">CASE STUDIES</a></li>
+							<li><a href="#clients" data-toggle="collapse" data-target=".navbar-collapse">CLIENTS</a></li>
+							<li><a href="https://www.linkedin.com/company/inductivehealth-informatics/jobs/" class="external" target="_blank" data-toggle="collapse" data-target=".navbar-collapse">CAREERS</a></li>
+							<li><a href="#contact-us" data-toggle="collapse" data-target=".navbar-collapse">LET'S TALK</a></li>
+                        </ul>
+                    </div>
+                    <!--/.nav-collapse --> 
+                </div>
+            </div>
+        </section>
+        <!-- /.NAVIGATION --> 
+        <!-- ABOUT US STARTS
+            ========================================================================= -->
+        <section id="about-us" class="light-grey-bg">
+            <div class="container">
+                <!-- Row 1 Starts -->
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="heading-1 animated" data-animation="fadeInUp" data-animation-delay="100">ABOUT US</div>
+                        <div class="heading-2 animated" data-animation="fadeInUp" data-animation-delay="500">HISTORY / <span class="color-text">INTRO</span></div>
+                        <div class="description-1 animated" data-animation="fadeInUp" data-animation-delay="900">InductiveHealth builds modern technology to support public health action.</div>
+                    </div>
+                    <div class="col-md-6 col-md-offset-1 animated" data-animation="fadeInUp" data-animation-delay="900">
+                        <div>
+                            <p>InductiveHealth brings disruptive technologies to the public health informatics arena to dramatically lower the costs of integration, operations, and large-scale analysis of health data.</p>
+							<p>Our firm was formed in 2013 to deliver public health technology that just works, letting epidemiologists 
+							focus on <span class="color-text">public health action</span> and not worry about maintaining complex, costly 
+							technology.  
+							<p>We are the leaders in <span class="color-text"><strong>NBS Cloud Hosting and Support</strong></span>, with deep expertise in HL7 integration,
+							secure cloud hosting, and disease surveillance technology. We manage some of the largest information systems in public 
+							health for over a dozen
+							clients, delivering more clinical to public health integrations than any other firm.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Row 1 Ends --> 
+                <!-- Row 2 Starts -->
+                <div class="row fun-facts">
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <div class="white-box animated" data-animation="flipInY" data-animation-delay="1200"><span class="counter">6</span><br>
+                            YEARS
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <div class="white-box animated" data-animation="flipInX" data-animation-delay="1400"><span class="counter">22</span><br>
+                            EMPLOYEES
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <div class="white-box animated" data-animation="flipInY" data-animation-delay="1600"><span>99.9%</span><br>
+                            UPTIME
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <div class="white-box animated" data-animation="flipInX" data-animation-delay="1800"><span>5K+</span><br>
+                            DATA FEEDS
+                        </div>
+                    </div>
+					<div class="col-xs-6 col-sm-4 col-md-2">
+                        <div class="white-box animated" data-animation="flipInX" data-animation-delay="2000"><span>2M+</span><br>
+                            HL7 MSGs DAILY
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <div class="white-box animated" data-animation="flipInY" data-animation-delay="2200"><span>1B+</span><br>
+                            RECORDS
+                        </div>
+                    </div>
+                </div>
+                <!-- Row 2 Ends --> 
+            </div>
+        </section>
+        <!-- /. ABOUT US ENDS
+            ========================================================================= --> 
+        
+        <!-- SERVICES STARTS
+            ========================================================================= -->
+        <section id="services" class="geometry-texture">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="heading-1 animated" data-animation="fadeInUp" data-animation-delay="100">OUR SERVICES</div>
+                        <div class="description-1 animated" data-animation="fadeInUp" data-animation-delay="500">InductiveHealth delivers public health technology that <span class="color-text">just works</span>.</div>
+                        <div class="description-2 animated" data-animation="fadeInUp" data-animation-delay="900">
+						<p>We help public health agencies of all sizes implement and manage technology to support efficient collection and analysis of public health data.  We are seasoned epidemiologists, not just tech jockeys.</p>
+						<p>We’re the leader in public health disease surveillance, with more feeds, data, and systems under management than any other firm. </p>
+						</div>
+                    </div>
+                    <div class="col-md-6 col-md-offset-1">
+                        <!-- Service 1 Starts -->
+                        <div class="col-xs-6 col-md-4 s-items" data-project="services-pages/services-1.html">
+                            <div class="icons animated" data-animation="fadeInDown" data-animation-delay="500"><a href="#"> <i class="fa fa-cloud"></i><br>
+                                Cloud</a> 
+                            </div>
+                        </div>
+                        <!-- Service 1 Ends -->
+                        <!-- Service 2 Starts -->
+                        <div class="col-xs-6 col-md-4 s-items" data-project="services-pages/services-2.html">
+                            <div class="icons animated" data-animation="fadeInDown" data-animation-delay="1000"><a href="#"> <i class="fa fa-cogs"></i><br>
+                                Integration</a> 
+                            </div>
+                        </div>
+                        <!-- Service 2 Ends -->
+                        <!-- Service 3 Starts -->
+                        <div class="col-xs-6 col-md-4 s-items" data-project="services-pages/services-3.html">
+                            <div class="icons animated" data-animation="fadeInDown" data-animation-delay="1500"><a href="#"><i class="fa fa-bar-chart-o"></i><br>
+                                Data Science</a> 
+                            </div>
+                        </div>
+                        <!-- Service 3 Ends -->
+                        <!-- AJAX Portfolio Details -->
+                        <div class="services-detail"></div>
+                        <!-- AJAX Portfolio Details -->
+                        <!-- Service 4 Starts -->
+                        <div class="col-xs-6 col-md-4 s-items" data-project="services-pages/services-4.html">
+                            <div class="icons animated" data-animation="fadeInUp" data-animation-delay="1500"><a href="#"> <i class="fa fa-shield"></i><br>
+                                InfoSec</a> 
+                            </div>
+                        </div>
+                        <!-- Service 4 Ends -->
+                        <!-- Service 5 Starts -->
+                        <div class="col-xs-6 col-md-4 s-items" data-project="services-pages/services-5.html">
+                            <div class="icons animated" data-animation="fadeInUp" data-animation-delay="1000"><a href="#"> <i class="fa fa-globe"></i><br>
+                                Surveillance</a> 
+                            </div>
+                        </div>
+                        <!-- Service 5 Ends -->
+                        <!-- Service 6 Starts -->
+                        <div class="col-xs-6 col-md-4 s-items" data-project="services-pages/services-6.html">
+                            <div class="icons animated" data-animation="fadeInUp" data-animation-delay="500"><a href="#"> <i class="fa fa-cube"></i><br>
+                                Genomic</a> 
+                            </div>
+                        </div>
+                        <!-- Service 6 Ends -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /. SERVICES ENDS
+            ========================================================================= --> 
+		<!-- TESTIMONIALS STARTS
+            ========================================================================= -->
+        <section id="testimonials" class="parallax-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="testimonials-carousel">
+                            <!-- Item 1 Starts -->
+                            <div class="items">
+                                <div class="desc">I had a great meeting last week with [another State] about how great InductiveHealth has been for us, and just updated them on how that process has worked for us over the past 3 years... They were really impressed with all you have done for us, and how we are now able to utilize NEDSS. Thank you!!"</div>
+                                <div class="name color-text">- Territorial Epidemiologist</div>
+                                <div class="cname">US Virgin Islands Department of Health</div>
+                            </div>
+                            <!-- Item 1 Ends -->
+                            <!-- Item 2 Starts -->
+                            <div class="items">
+                                <div class="desc"><br><br>Your team is amazing.  We are lucky to have you all supporting the program.<br></div>
+                                <div class="name color-text">- BioSense Program Stakeholder</div>
+                                <div class="cname">BioSense Governance Group</div>
+                            </div>
+							<div class="items">
+                                <div class="desc">It’s been such a pleasure working with each of you and we have been so very impressed by InductiveHealth as an organization. The level of professionalism and expertise you all bring to the table is remarkable. You all have already made a big difference in our system performance and progress overall.</div>
+                                <div class="name color-text">- Informatics Manager</div>
+                                <div class="cname">Rhode Island Department of Health</div>
+                            </div>
+                            <!-- Item 2 Ends -->
+                            <!-- Item 3 Starts -->
+                            <div class="items">
+                                <div class="desc"><br>Just wanted you all to know the very very positive vibe going on amongst all the epi staff back here who rely on this system to do their work.  I have never seen such a dramatic improvement in morale.  Just had to let you know...</div>
+                                <div class="name color-text">- State Epidemiologist</div>
+                                <div class="cname">Nebraska Department of Health and Human Services</div>
+                            </div>
+                            <!-- Item 3 Ends -->                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /. TESTIMONIALS ENDS
+            ========================================================================= -->
+		<!-- PORTFOLIO STARTS
+            ========================================================================= -->
+        <section id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 animated" data-animation="fadeInUp" data-animation-delay="100">
+                        <div class="heading-1">CASE STUDIES</div>
+                    </div>
+                    <div class="col-md-6 col-md-offset-1 animated" data-animation="fadeInUp" data-animation-delay="500">
+                        <!-- Portfolio Nav Starts -->
+                        <div id="options">
+                            <ul id="filters" class="option-set clearfix" data-option-key="filter">
+                                <li><a href="#filter" data-option-value="*" class="selected">ALL</a></li>
+                                <li><a href="#filter" data-option-value=".cloud">CLOUD</a></li>
+                                <li><a href="#filter" data-option-value=".integration">INTEGRATION</a></li>
+                                <li><a href="#filter" data-option-value=".data">DATA SCIENCE</a></li>
+								<li><a href="#filter" data-option-value=".infosec">INFO SEC</a></li>
+								<li><a href="#filter" data-option-value=".surveillance">SURVEILLANCE</a></li>
+								<li><a href="#filter" data-option-value=".genomic">GENOMIC</a></li>
+                            </ul>
+                        </div>
+                        <!-- Portfolio Nav Ends --> 
+                    </div>
+                </div>
+            </div>
+            <!-- AJAX Portfolio Details Starts -->
+            <div class="portfolio-detail photography-texture"></div>
+            <!-- AJAX Portfolio Details Ends -->
+            <!-- Portfolio Items Starts -->
+            <div class="container">
+                <div class="row" id="container-thumbs">
+                    <!-- Item 1 Starts -->
+                    <div class="col-md-4 items cloud integration data surveillance" data-project="portfolio-pages/standard-page-1.html">
+                        <div class="picture animated" data-animation="flipInY" data-animation-delay="100"><img src="images/portfolio/1.jpg" class="img-responsive" alt=""> </div>
+                        <div class="details animated" data-animation="flipInX" data-animation-delay="800">
+                            <div class="caption">BioSense Platform</div>
+                            <div class="category">cloud / integration / data science / surveillance</div>
+                        </div>
+                    </div>
+                    <!-- Item 1 Ends --> 
+                    <!-- Item 2 Starts -->
+                    <div class="col-md-4 items integration data infosec genomic" data-project="portfolio-pages/standard-page-2.html">
+                        <div class="picture animated" data-animation="flipInX" data-animation-delay="500"><img src="images/portfolio/2.jpg" class="img-responsive" alt=""> </div>
+                        <div class="details animated" data-animation="flipInY" data-animation-delay="1300">
+                            <div class="caption">HIV Drug Resistance DW</div>
+                            <div class="category">integration / info sec / genomic</div>
+                        </div>
+                    </div>
+                    <!-- Item 2 Ends --> 
+                    <!-- Item 3 Starts -->
+                    <div class="col-md-4 items cloud integration infosec surveillance" data-project="portfolio-pages/standard-page-3.html">
+                        <div class="picture animated" data-animation="flipInY" data-animation-delay="1000"><img src="images/portfolio/3.jpg" class="img-responsive" alt=""> </div>
+                        <div class="details animated" data-animation="flipInX" data-animation-delay="1800">
+                            <div class="caption">NBS Hosting and Support</div>
+                            <div class="category">cloud / integration / info sec / surveillance</div>
+                        </div>
+                    </div>
+                    <!-- Item 3 Ends --> 
+                    <!-- Item 4 Starts -->
+                    <div class="col-md-4 items cloud data infosec genomic" data-project="portfolio-pages/standard-page-4.html">
+                        <div class="picture animated" data-animation="flipInX" data-animation-delay="100"><img src="images/portfolio/4.jpg" class="img-responsive" alt=""> </div>
+                        <div class="details animated" data-animation="flipInY" data-animation-delay="500">
+                            <div class="caption">Genomic Computing Platform</div>
+                            <div class="category">cloud / data science / infosec / genomic</div>
+                        </div>
+                    </div>
+                    <!-- Item 4 Ends --> 
+                    <!-- Item 5 Starts -->
+                    <div class="col-md-4 items cloud integration infosec surveillance data" data-project="portfolio-pages/standard-page-5.html">
+                        <div class="picture animated" data-animation="flipInY" data-animation-delay="100"><img src="images/portfolio/5.jpg" class="img-responsive" alt=""> </div>
+                        <div class="details animated" data-animation="flipInX" data-animation-delay="500">
+                            <div class="caption">NDR Platform</div>
+                            <div class="category">cloud / integration / data science / infosec / surveillance</div>
+                        </div>
+                    </div>
+                    <!-- Item 5 Ends --> 
+                    <!-- Item 6 Starts -->
+                    <div class="col-md-4 items cloud integration infosec" data-project="portfolio-pages/standard-page-6.html">
+                        <div class="picture animated" data-animation="flipInX" data-animation-delay="100"><img src="images/portfolio/6.jpg" class="img-responsive" alt=""> </div>
+                        <div class="details animated" data-animation="flipInY" data-animation-delay="500">
+                            <div class="caption">LIMS Hosting and Support</div>
+                            <div class="category">cloud / integration / infosec</div>
+                        </div>
+                    </div>
+                    <!-- Item 6 Ends --> 
+                </div>
+            </div>
+            <!-- Portfolio Items Ends -->
+        </section>
+        <!-- PORTFOLIO ENDS
+            ========================================================================= --> 
+
+        <!-- CLIENTS STARTS
+            ========================================================================= -->
+        <section id="clients" class="parallax-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="heading-1 animated" data-animation="fadeInUp" data-animation-delay="100">OUR CLIENTS</div>
+                        <div class="description-1 animated" data-animation="fadeInUp" data-animation-delay="500">Our clients' success is our success.</div>
+                        <div class="description-2 animated" data-animation="fadeInUp" data-animation-delay="900">We're priveledged to work with leading public
+						health organizations around the world.</div>
+                    </div>
+                    <div class="col-md-8">
+                        <!-- Logo 1 Starts -->
+                        <div class="col-xs-6 col-md-4 c-logo animated" data-animation="fadeInUp" data-animation-delay="1000">
+                            <img src="images/clients/1.png" class="img-responsive" alt=""> 
+                        </div>
+                        <!-- Logo 1 Ends -->
+                        <!-- Logo 2 Starts -->
+                        <div class="col-xs-6 col-md-4 c-logo animated" data-animation="fadeInUp" data-animation-delay="1200">
+                            <img src="images/clients/2.png" class="img-responsive" alt="">  
+                        </div>
+                        <!-- Logo 2 Ends -->
+                        <!-- Logo 3 Starts -->
+                        <div class="col-xs-6 col-md-4 c-logo animated" data-animation="fadeInUp" data-animation-delay="1400">
+                            <img src="images/clients/3.png" class="img-responsive" alt="">  
+                        </div>
+                        <!-- Logo 3 Ends -->
+                        <!-- Logo 4 Starts -->
+                        <div class="col-xs-6 col-md-4 c-logo animated" data-animation="fadeInUp" data-animation-delay="1600">
+                            <img src="images/clients/4.png" class="img-responsive" alt=""> 
+                        </div>
+                        <!-- Logo 4 Ends -->
+                        <!-- Logo 5 Starts -->
+                        <div class="col-xs-6 col-md-4 c-logo animated" data-animation="fadeInUp" data-animation-delay="1800">
+                            <img src="images/clients/5.png" class="img-responsive" alt="">  
+                        </div>
+                        <!-- Logo 5 Ends -->
+                        <!-- Logo 6 Starts -->
+                        <div class="col-xs-6 col-md-4 c-logo animated" data-animation="fadeInUp" data-animation-delay="2000">
+                            <img src="images/clients/6.png" class="img-responsive" alt="">  
+                        </div>
+                        <!-- Logo 6 Ends -->
+                        <!-- Logo 7 Starts -->
+                        <div class="col-xs-6 col-md-4 c-logo animated" data-animation="fadeInUp" data-animation-delay="2200">
+                            <img src="images/clients/7.png" class="img-responsive" alt=""> 
+                        </div>
+                        <!-- Logo 7 Ends -->
+                        <!-- Logo 8 Starts -->
+                        <div class="col-xs-6 col-md-4 c-logo animated" data-animation="fadeInUp" data-animation-delay="2400">
+                            <img src="images/clients/8.png" class="img-responsive" alt=""> 
+                        </div>
+                        <!-- Logo 8 Ends -->
+                        <!-- Logo 9 Starts -->
+                        <div class="col-xs-6 col-md-4 c-logo animated" data-animation="fadeInUp" data-animation-delay="2600">
+                            <img src="images/clients/9.png" class="img-responsive" alt=""> 
+                        </div>
+                        <!-- Logo 9 Ends -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /. CLIENTS ENDS
+            ========================================================================= -->    
+        <!-- CONTACT US STARTS
+            ========================================================================= -->
+        <section id="contact-us" class="light-grey-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="heading-1 animated" data-animation="fadeInUp" data-animation-delay="100">LET'S TALK</div>
+                        <div class="description-1 animated" data-animation="fadeInUp" data-animation-delay="500">No pressure - we're always up for geeking out about
+						public health data.</div>
+                    </div>
+                    <div class="col-md-6 col-md-offset-1 getintouch animated" data-animation="flipInY" data-animation-delay="900">
+                        <a href="javascript:Tawk_API.maximize();"><div class="grey-box colored-bg"><i class="fa fa-comments"></i> GET IN TOUCH WITH US<br>
+                            <span class="feelfree">Feel Free to Drop Us a Line</span>
+                        </div></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Address Starts -->
+                    <div class="col-md-6 animated" data-animation="fadeInUp" data-animation-delay="900">
+                        <address>
+                            <strong>InductiveHealth Informatics</strong><br>
+                            3107 Clairmont Road N NE, Suite C<br>
+							Atlanta, GA 30329<br>
+                            <br>
+                            <i class="fa fa-phone"></i>+1 (678) 786-9260<br>
+                            <br>
+                            <i class="fa fa-envelope"></i> Email: <a href="mailto:info@inductivehealth.com" target="_blank">info@inductivehealth.com</a><br>
+                            <i class="fa fa-globe"></i> Website: <a href="http://www.inductivehealth.com" target="_blank">www.inductivehealth.com</a>
+                        </address>
+                    </div>
+                    <!-- Address Ends --> 
+                    <!-- Form Starts -->
+                    <div class="col-md-6 form-element animated" data-animation="fadeInUp" data-animation-delay="1200">
+                        <div class="form">
+                            <!--<form action='#' method='post' name='ContactForm' id='ContactForm' >
+                                <div id='message_post'></div>
+                                <div class="input-group"> <span class="input-group-addon">@</span>
+                                    <input type="text" name="name" class="form-control" placeholder="Name *" required>
+                                </div>
+                                <div class="input-group"> <span class="input-group-addon">@</span>
+                                    <input type="text" name="_replyto" class="form-control" placeholder="Email *" required>
+                                </div>
+                                <div class="input-group"> <span class="input-group-addon">@</span>
+                                    <input type="text" name="_subject" class="form-control" placeholder="Subject *" required>
+                                </div>
+                                <div class="input-group"> <span class="input-group-addon">@</span>
+                                    <textarea name="message" rows="5" class="form-control" placeholder="Your question *" required></textarea>
+									<input type="text" name="_gotcha" style="display:none" />
+									<input type="hidden" name="_next" value="https://website.inductivehealth.com/#contact-us"/>
+                                </div>
+                                <div class="input-group form-buttons"> <span class="input-group-btn">
+                                    <button class="btn btn-default" type='submit' value='Submit' name='submitf' id="submitf" style="width:100%;height:60px;"><i class="fa fa-comments"></i>GET IN TOUCH WITH US</button>
+                                    </span> 
+                                </div>
+                            </form>-->
+                        </div>
+                    </div>
+                    <!-- Form Ends --> 
+                </div>
+            </div>
+        </section>
+        <!-- /. CONTACT US ENDS
+            ========================================================================= -->
+        <!-- COPYRIGHT STARTS
+            ========================================================================= -->
+        <section id="copyright" class="dark-bluish-grey-bg">
+            <div class="container">
+                <div class="row animated" data-animation="fadeInUp" data-animation-delay="100">
+                    <div class="col-md-12">© InductiveHealth Informatics, Inc. 2019 / all rights reserved.<br>
+					site by InductiveHealth</div>
+                </div>
+            </div>
+        </section>
+        <!-- /. COPYRIGHT ENDS
+            ========================================================================= -->
+        <!-- TO TOP STARTS
+            ========================================================================= -->
+        <a href="#" class="scrollup">Scroll</a>      
+        <!-- /. TO TOP ENDS
+            ========================================================================= -->
+          
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+        <script src="js/jquery-1.11.0/jquery.min.js"></script> 
+        <!-- Include all compiled plugins (below), or include individual files as needed --> 
+        <script src="js/bootstrap/bootstrap.min.js"></script>
+        <!-- Animation --> 
+        <script type="text/javascript" src="js/animation/jquery.appear.js"></script> 
+        <!-- AJAX Contact Form --> 			
+        <script type="text/javascript" src="js/contact/contact-form.js"></script>   
+        <!-- Slider Revolution 4.x Scripts -->
+        <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+        <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.js"></script> 
+        <script>
+            var revapi;
+            
+            		jQuery(document).ready(function() {
+            
+            			   revapi = jQuery('.tp-banner').revolution(
+            				{
+            						delay:9000,
+            						startwidth:1170,
+            						startheight:500,
+            						fullScreen:"on",
+            						forceFullWidth:"on",
+            						minFullScreenHeight:"320",
+            						videoJsPath:"rs-plugin/videojs/"
+            				});
+            
+            		});	//ready
+        </script> 
+        <!-- Parallax --> 
+        <script type="text/javascript" src="js/parallax/jquery.parallax-1.1.3.js"></script> 
+        <script type="text/javascript" src="js/parallax/jquery.localscroll-1.2.7-min.js"></script> 
+        <script type="text/javascript" src="js/parallax/jquery.scrollTo-1.4.2-min.js"></script> 
+        <!-- ScrollTo --> 
+        <script src="js/nav/jquery.scrollTo.js"></script> 
+        <script src="js/nav/jquery.nav.js"></script> 
+        <!-- Sticky --> 
+        <script type="text/javascript" src="js/sticky/jquery.sticky.js"></script> 
+        <!-- Owl Carousel --> 
+        <script src="owl-carousel/owl-carousel/owl.carousel.js"></script> 
+        <!-- Counter --> 
+        <script src="js/counter/waypoints.min.js"></script> 
+        <script src="js/counter/jquery.counterup.min.js"></script> 
+        <!-- Isotope --> 
+        <script src="js/isotope/jquery.isotope.min.js"></script> 
+        <script src="js/isotope/custom-isotope.js"></script> 
+        <!-- Retina --> 
+        <script type="text/javascript" src="js/retina/retina.js"></script> 
+        <!-- FitVids --> 
+        <script type="text/javascript" src="js/fitvids/jquery.fitvids.js"></script>
+        <!-- SmoothScroll --> 
+        <script type="text/javascript" src="js/SmoothScroll/SmoothScroll.js"></script>
+        <!-- Custom --> 
+        <script type="text/javascript" src="js/custom/custom.js"></script>
+		<!-- CHAT -->
+		<!--Start of Tawk.to Script-->
+		<script type="text/javascript">
+			var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+			(function(){
+			var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+			s1.async=true;
+			s1.src='https://embed.tawk.to/5c34c96e12db2461b16b38f6/default';
+			s1.charset='UTF-8';
+			s1.setAttribute('crossorigin','*');
+			s0.parentNode.insertBefore(s1,s0);
+			})();
+		</script>
+		<!--End of Tawk.to Script-->
     </body>
-    </html>
+</html>

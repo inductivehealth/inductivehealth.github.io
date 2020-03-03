@@ -1,0 +1,56 @@
+<script>
+    $(document).ready(function() {
+    				   $("#portfolio-gallery").owlCarousel({
+    					  navigation : true, 
+    					  slideSpeed : 400,
+    					  paginationSpeed : 500,
+    					  singleItem:true,
+    					  pagination:false,
+    					  autoPlay : 5000,
+    					  navigationText : ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>']
+     					 });
+    			});
+</script>
+<div class="container">
+    <div class="row">
+        <!-- Gallery Starts -->
+        <div class="col-md-6 items">
+            <div id="portfolio-gallery" class="owl-carousel owl-theme">
+                <div class="item"><img src="../images/portfolio/1.jpg"  class="img-responsive" alt=""/></div>
+                <div class="item"><img src="../images/portfolio/2.jpg"  class="img-responsive" alt=""/></div>
+                <div class="item"><img src="../images/portfolio/3.jpg" class="img-responsive" alt=""/></div>
+            </div>
+            <div class="details">
+                <div class="caption">Sed ut perspiciatis</div>
+            </div>
+        </div>
+        <!-- Gallery Ends -->
+        <div class="col-md-6">
+            <div class="heading">Images Gallery</div>
+            <div class="desc">Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quaeab illo inventore veritatis et quasi architecto beatae </div>
+            <!-- Item Info Starts -->
+            <ul>
+                <li><strong>Category</strong>: Graphics, Web</li>
+                <li><strong>Client:</strong> Perspiciatis</li>
+                <li><strong>URL:</strong> www.perspiciatis.com</li>
+                <li><strong>Year:</strong> 2014</li>
+            </ul>
+            <!-- Item Info Ends --> 
+            <!-- Social Icons Starts -->
+            <ul class="social-icons">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            </ul>
+            <!-- Social Icons Ends --> 
+            <!-- Links Starts -->
+            <div class="links">
+                <div class="pull-left"><a href="#" target="_blank"><i class="fa fa-rocket"></i> Launch Website</a></div>
+                <div class="close-detail pull-right"><a><i class="fa fa-times"></i> Close</a></div>
+            </div>
+            <!-- Links Ends --> 
+        </div>
+    </div>
+</div>
