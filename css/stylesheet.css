@@ -996,6 +996,10 @@ section#clients {
 #clients .c-logo {
 	margin-bottom: 55px;
 }
+
+/* .clients-bg{
+	background: rgb(240, 241, 219);
+} */
 /* ----------------------------------------------------------------------------------------- Contact Us Starts -- */
 section#contact-us {
 	padding-bottom: 100px;
