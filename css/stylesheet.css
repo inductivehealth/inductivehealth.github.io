@@ -1163,3 +1163,118 @@ section#copyright {
 	font-weight: 400;
 }
 }
+
+/* Careers and Covid-19 soultions sections---------------------------------------------------------------*/
+/* .careers-body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 26px;
+}
+
+
+.careers-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.section1 {
+	line-height: 35px;
+	margin-bottom: 100px;
+}
+
+.section2 {
+	padding-top: 155px;
+	text-align: center;
+} */
+
+.careers-button {
+	font-size: 30px;
+	text-align: center;
+}
+
+
+.careers-values {
+	font-size: 25px;
+	font-weight: 500;
+	list-style: none;
+	line-height: 30px;
+}
+
+@media (max-width: 992px) {
+	.learn-more-covid {
+		display: none;
+	}
+}
+
+@media (max-width:500px) {
+	.ihi-video {
+		width: 430px;
+	}
+}
+
+@media (max-width: 450px) {
+	.ihi-video {
+		width: 340px;
+	}
+	
+}
+
+/* .row-careers {
+	display: flex;
+}
+
+.section1, .section2{
+	flex: 1;
+}
+
+@media (max-width: 1200px) {
+	.careers-body {
+		height: 50vh;
+		margin: 20px;
+		text-align: center;
+	}
+	.row-careers {
+		flex-direction: column;
+	}
+
+	.section1 {
+		margin-top: 250px;
+	}
+	
+	.section2 {
+		padding: 0;
+	}
+}
+
+@media (max-width: 500px) {
+	.careers-container {
+		margin: 180px;
+	
+	}
+
+	.careers-title {
+		text-align: center;
+
+	}
+
+.careers-para {
+	text-align: center;
+	padding-left: 5px;
+}
+
+.careers-values {
+	text-align: center;
+	padding-right: 25px;
+}
+
+
+.section2 {
+padding: 0 60px 0 60px;
+}
+} */
