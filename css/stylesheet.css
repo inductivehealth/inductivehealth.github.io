@@ -1212,6 +1212,13 @@ section#copyright {
 	}
 }
 
+@media (max-width: 1050px) {
+	.ihi-video {
+		width: 460px;
+	}
+	
+}
+
 @media (max-width:500px) {
 	.ihi-video {
 		width: 430px;
@@ -1221,6 +1228,13 @@ section#copyright {
 @media (max-width: 450px) {
 	.ihi-video {
 		width: 340px;
+	}
+	
+}
+
+@media (max-width: 280px) {
+	.ihi-video {
+		width: 240px;
 	}
 	
 }
