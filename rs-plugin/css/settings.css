@@ -1998,6 +1998,18 @@ transform: rotate(360deg);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF);
 	zoom: 1;
 }
+@media (max-width:480px){
+	.tp-caption img {
+		width: 20% !important;
+		height: auto !important;
+		margin-top: -10%;
+	}	
+}
+@media (min-width:481px){
+	.tp-caption img {
+		margin-top: -10%;
+	}	
+}
 @font-face {
 	font-family: 'revicons';
 	src: url('../font/revicons.eot?5510888');
